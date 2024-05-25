@@ -1,0 +1,55 @@
+/* common code start */
+*{
+	font-family: "Work Sans", sans-serif;
+}
+:root{
+	--brand-color: #6C55F9;
+	--hover-color: #645F88;
+}
+/* common code end */
+
+
+/* bootstrap override start */
+}
+@media (min-width: 992px) {
+    .container, .container-sm, .container-md, .container-lg {
+        max-width: 960px;
+    }
+}
+/* bootstrap override end */
+/* navbar section start */
+.navbar-brand {
+    color: rgba(0, 0, 0, 0.9);
+	font-size: 20px;
+	font-weight: 700;
+}
+.navbar-brand span{
+    color: var(--brand-color);
+}
+.nav-link {
+    color:  rgba(100, 95, 136, 0.75);
+	font-size: 17px;
+	font-weight: 500;
+	padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.nav-link:hover{
+	color:  rgb(100, 95, 136);
+}
+
+.navbar-nav .nav-link.active{
+    color: var(--brand-color);
+}
+
+.btn-success {
+	color: rgb(255, 255, 255);
+	background: var(--brand-color);
+	font-size: 14px;
+	font-weight: 400;
+	font-family: "Work Sans", sans-serif;
+	padding: 8px 29px;
+}
+.btn-success:hover{
+	background:rgb(100, 95, 136);
+}
+/* navbar section end */
